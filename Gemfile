@@ -49,3 +49,4 @@ gem 'execjs'
 gem "twitter-bootstrap-rails"
 gem "less-rails"
 gem 'nokogiri'
+gem 'anemone'
