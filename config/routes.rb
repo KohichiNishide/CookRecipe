@@ -1,6 +1,7 @@
 App::Application.routes.draw do
   get "pages/index"
   get "pages/get_recipe"
+  get "pages/show_all"
   root :to => 'pages#index'
   resources :pages
   # The priority is based upon order of creation: first created -> highest priority.

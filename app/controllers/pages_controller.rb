@@ -9,20 +9,19 @@ class PagesController < ApplicationController
   end
 
   def get_recipe
-category_url = "http://cookpad.com/category/10"
-page_number = 1
+    category_url = "http://cookpad.com/category/10"
+    page_number = 1
 
-opts = {
-    :skip_query_strings => false,
-    :depth_limit => 1,
-}
+    opts = {
+      :skip_query_strings => false,
+      :depth_limit => 1,
+    }
 
-recipes = []
+    recipes = []
 
-page_number.times { |number|
-    recipe_url = category_url + "?page=" + number.to_s
-    
-    Anemone.crawl(recipe_url, opts) do |anemone|
+    page_number.times { |number|
+      recipe_url = category_url + "?page=" + number.to_s
+      Anemone.crawl(recipe_url, opts) do |anemone|
         anemone.focus_crawl do |page|
             page.links.keep_if { |link|
                 link.to_s.match(/recipe/)
@@ -41,22 +40,21 @@ page_number.times { |number|
             end
             recipes << r
         end
+      end
+    }
+    #puts recipes
+    recipes.each do |r|
+      recipe = Recipe.new
+      recipe.title = r[:title]
+      recipe.ulr = r[:ulr]
+      recipe.image_ulr = save_image(r[:image_ulr])
+      recipe.summary = r[:summary]
+      recipe.num_tsukurepo = r[:num_tsukurepo]
+      recipe.save
     end
-}
-#puts recipes
-
-recipes.each do |r|
-    recipe = Recipe.new
-    recipe.title = r[:title]
-    recipe.ulr = r[:ulr]
-    recipe.image_ulr = save_image(r[:image_ulr])
-    recipe.summary = r[:summary]
-    recipe.num_tsukurepo = r[:num_tsukurepo]
-    recipe.save
-end
   end
 
-def save_image(url)
+  def save_image(url)
     # ready filepath
     fileName = File.basename(url) + ".jpg"
     dirName = "/root/rails_projects/ryorigasusumu/app/app/assets/images/"
@@ -72,10 +70,14 @@ def save_image(url)
         end
     end
     filePath
-end
+  end
 
   def show
     recipe = Recipe.find params[:id]
     send_data recipe.image_data, :type => "image/jpeg", :disposition => "inline"
+  end
+
+  def show_all
+    @recipes = Recipe.all
   end
 end
