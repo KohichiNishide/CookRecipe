@@ -1,7 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  data: 
+  title: MyString
+  ulr: MyString
+  summary: MyString
+  image_data: 
+  num_tsukurepo: 1
 
 two:
-  data: 
+  title: MyString
+  ulr: MyString
+  summary: MyString
+  image_data: 
+  num_tsukurepo: 1

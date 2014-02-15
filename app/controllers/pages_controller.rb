@@ -11,6 +11,6 @@ class PagesController < ApplicationController
 
   def show
     recipe = Recipe.find params[:id]
-    send_data recipe.data, :type => "image/jpeg", :disposition => "inline"
+    send_data recipe.image_data, :type => "image/jpeg", :disposition => "inline"
   end
 end
