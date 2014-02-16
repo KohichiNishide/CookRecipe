@@ -9,8 +9,8 @@ class PagesController < ApplicationController
   end
 
   def get_recipe
-    category_url = "http://cookpad.com/category/10"
-    page_number = 1
+    category_url = "http://cookpad.com/category/1307"
+    page_number = 44
 
     opts = {
       :skip_query_strings => false,

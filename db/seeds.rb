@@ -5,4 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Recipe.create(:title => 'Zucchini',:image_data => File.read("#{Rails.root}/app/assets/images/sample.jpeg"))

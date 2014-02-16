@@ -1,8 +1,9 @@
 <div id="wrapper">
+	<h3>クックパッドのズッキーニレシピをPinterest風に並べた</h3>
 	<div id="columns">
 		<% @recipes.each do |recipe| %>
 		<div class="pin">
-			<%= image_tag(recipe.image_ulr) %>
+			<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
 			<p>
 				<%= recipe.title %><br />
 				[概要] <%= recipe.summary %><br />
