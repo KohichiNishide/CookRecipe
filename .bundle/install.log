@@ -1,0 +1,381 @@
+# Logfile created on 2014-02-02 11:38:16 +0900 by logger.rb/44203
+I, [2014-02-02T11:38:16.303761 #16103]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-02T11:38:16.304376 #16103]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-02T11:38:16.304761 #16103]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-02T11:38:17.023029 #16103]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-02T11:38:17.024046 #16103]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-02T11:38:17.024610 #16103]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-02T11:38:17.025023 #16103]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-02T11:38:17.025567 #16103]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-02T11:38:17.026058 #16103]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-02T11:38:17.026488 #16103]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-02T11:38:17.026901 #16103]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-02T11:38:17.027345 #16103]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-02T11:38:17.027756 #16103]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-02T11:38:17.028389 #16103]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-02T11:38:17.028853 #16103]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-02T11:38:17.029394 #16103]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-02T11:38:17.030083 #16103]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-02T11:38:17.030826 #16103]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-02T11:38:17.031528 #16103]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-02T11:38:17.032132 #16103]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-02T11:38:17.032805 #16103]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-02T11:38:17.033468 #16103]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-02T11:38:17.034114 #16103]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-02T11:38:17.855071 #16103]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-02T11:38:17.855724 #16103]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-02T11:38:17.856160 #16103]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-02T11:38:17.856556 #16103]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-02T11:38:17.857055 #16103]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-02T11:38:17.857447 #16103]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-02T11:38:17.857883 #16103]  INFO -- : 0:  hike (1.2.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-02T11:38:17.858365 #16103]  INFO -- : 0:  jbuilder (1.5.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-02-02T11:38:18.554140 #16103]  INFO -- : 0:  jquery-rails (3.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.1.0.gemspec
+I, [2014-02-02T11:38:18.554843 #16103]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-02T11:38:18.555354 #16103]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-02T11:38:18.555770 #16103]  INFO -- : 0:  sprockets (2.10.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-02-02T11:38:18.556221 #16103]  INFO -- : 0:  sprockets-rails (2.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-02-02T11:38:18.556856 #16103]  INFO -- : 0:  rails (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-02-02T11:38:19.574323 #16103]  INFO -- : 0:  rdoc (4.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-02-02T11:38:20.324587 #16103]  INFO -- : 0:  sass (3.2.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-3.2.14.gemspec
+I, [2014-02-02T11:38:20.325346 #16103]  INFO -- : 0:  sass-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-02-02T11:38:21.017465 #16103]  INFO -- : 0:  sdoc (0.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-02-02T11:38:21.018088 #16103]  INFO -- : 0:  sqlite3 (1.3.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-02T11:38:21.816420 #16103]  INFO -- : 0:  turbolinks (2.2.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.1.gemspec
+I, [2014-02-02T11:38:21.817218 #16103]  INFO -- : 0:  uglifier (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-02-02T11:50:46.405697 #16348]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-02T11:50:46.406338 #16348]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-02T11:50:46.406674 #16348]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-02T11:50:46.407061 #16348]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-02T11:50:46.407479 #16348]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-02T11:50:46.407856 #16348]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-02T11:50:46.408452 #16348]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-02T11:50:46.408831 #16348]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-02T11:50:46.409272 #16348]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-02T11:50:46.409610 #16348]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-02T11:50:46.409977 #16348]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-02T11:50:46.410380 #16348]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-02T11:50:46.410802 #16348]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-02T11:50:46.411152 #16348]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-02T11:50:46.411544 #16348]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-02T11:50:46.411916 #16348]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-02T11:50:46.412322 #16348]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-02T11:50:46.412661 #16348]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-02T11:50:46.413039 #16348]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-02T11:50:46.413464 #16348]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-02T11:50:46.413832 #16348]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-02T11:50:46.414267 #16348]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-02T11:50:46.414611 #16348]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-02T11:50:46.414984 #16348]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-02T11:50:46.415391 #16348]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-02T11:50:46.415830 #16348]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-02T11:50:46.416273 #16348]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-02T11:50:46.416605 #16348]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-02T11:50:46.416995 #16348]  INFO -- : 0:  hike (1.2.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-02T11:50:46.417422 #16348]  INFO -- : 0:  jbuilder (1.5.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-02-02T11:50:46.417816 #16348]  INFO -- : 0:  jquery-rails (3.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.1.0.gemspec
+I, [2014-02-02T11:50:46.418175 #16348]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-02T11:50:46.418606 #16348]  INFO -- : 0:  libv8 (3.16.14.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-02T11:50:46.418970 #16348]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-02T11:50:46.419396 #16348]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-02T11:50:46.419821 #16348]  INFO -- : 0:  sprockets (2.10.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-02-02T11:50:46.420268 #16348]  INFO -- : 0:  sprockets-rails (2.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-02-02T11:50:46.420627 #16348]  INFO -- : 0:  rails (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-02-02T11:50:46.421021 #16348]  INFO -- : 0:  rdoc (4.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-02-02T11:50:46.421427 #16348]  INFO -- : 0:  ref (1.0.5) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ref-1.0.5.gemspec
+I, [2014-02-02T11:50:46.424497 #16348]  INFO -- : 0:  sass (3.2.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-3.2.14.gemspec
+I, [2014-02-02T11:50:46.424900 #16348]  INFO -- : 0:  sass-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-02-02T11:50:46.425317 #16348]  INFO -- : 0:  sdoc (0.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-02-02T11:50:46.425693 #16348]  INFO -- : 0:  sqlite3 (1.3.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-02T11:50:46.426075 #16348]  INFO -- : 0:  therubyracer (0.12.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/therubyracer-0.12.0.gemspec
+I, [2014-02-02T11:50:46.426495 #16348]  INFO -- : 0:  turbolinks (2.2.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.1.gemspec
+I, [2014-02-02T11:50:46.426860 #16348]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-02-02T11:50:46.427285 #16348]  INFO -- : 0:  uglifier (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-02-02T11:50:57.408744 #16350]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-02T11:50:57.409299 #16350]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-02T11:50:57.409653 #16350]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-02T11:50:57.410094 #16350]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-02T11:50:57.410451 #16350]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-02T11:50:57.410818 #16350]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-02T11:50:57.411220 #16350]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-02T11:50:57.411540 #16350]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-02T11:50:57.411906 #16350]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-02T11:50:57.412303 #16350]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-02T11:50:57.412643 #16350]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-02T11:50:57.413068 #16350]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-02T11:50:57.413425 #16350]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-02T11:50:57.413783 #16350]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-02T11:50:57.414173 #16350]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-02T11:50:57.414525 #16350]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-02T11:50:57.414876 #16350]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-02T11:50:57.415273 #16350]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-02T11:50:57.415590 #16350]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-02T11:50:57.416045 #16350]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-02T11:50:57.416410 #16350]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-02T11:50:57.416910 #16350]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-02T11:50:57.417330 #16350]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-02T11:50:57.417682 #16350]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-02T11:50:57.418151 #16350]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-02T11:50:57.418501 #16350]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-02T11:50:57.418883 #16350]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-02T11:50:57.419303 #16350]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-02T11:50:57.419654 #16350]  INFO -- : 0:  hike (1.2.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-02T11:50:57.420074 #16350]  INFO -- : 0:  jbuilder (1.5.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-02-02T11:50:57.420443 #16350]  INFO -- : 0:  jquery-rails (3.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.1.0.gemspec
+I, [2014-02-02T11:50:57.420808 #16350]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-02T11:50:57.421209 #16350]  INFO -- : 0:  libv8 (3.16.14.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-02T11:50:57.421536 #16350]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-02T11:50:57.421894 #16350]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-02T11:50:57.422337 #16350]  INFO -- : 0:  sprockets (2.10.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-02-02T11:50:57.422687 #16350]  INFO -- : 0:  sprockets-rails (2.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-02-02T11:50:57.423096 #16350]  INFO -- : 0:  rails (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-02-02T11:50:57.423433 #16350]  INFO -- : 0:  rdoc (4.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-02-02T11:50:57.423777 #16350]  INFO -- : 0:  ref (1.0.5) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ref-1.0.5.gemspec
+I, [2014-02-02T11:50:57.424181 #16350]  INFO -- : 0:  sass (3.2.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-3.2.14.gemspec
+I, [2014-02-02T11:50:57.424570 #16350]  INFO -- : 0:  sass-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-02-02T11:50:57.424976 #16350]  INFO -- : 0:  sdoc (0.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-02-02T11:50:57.425336 #16350]  INFO -- : 0:  sqlite3 (1.3.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-02T11:50:57.425678 #16350]  INFO -- : 0:  therubyracer (0.12.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/therubyracer-0.12.0.gemspec
+I, [2014-02-02T11:50:57.426125 #16350]  INFO -- : 0:  turbolinks (2.2.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.1.gemspec
+I, [2014-02-02T11:50:57.426491 #16350]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-02-02T11:50:57.426871 #16350]  INFO -- : 0:  uglifier (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-02-02T13:21:34.721023 #16615]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-02T13:21:34.721831 #16615]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-02T13:21:34.722273 #16615]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-02T13:21:34.722685 #16615]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-02T13:21:34.723024 #16615]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-02T13:21:34.723517 #16615]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-02T13:21:34.723867 #16615]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-02T13:21:34.724292 #16615]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-02T13:21:34.724685 #16615]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-02T13:21:34.725047 #16615]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-02T13:21:34.725505 #16615]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-02T13:21:34.725964 #16615]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-02T13:21:34.726430 #16615]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-02T13:21:34.726788 #16615]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-02T13:21:34.727153 #16615]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-02T13:21:34.727573 #16615]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-02T13:21:34.727925 #16615]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-02T13:21:34.728379 #16615]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-02T13:21:34.728738 #16615]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-02T13:21:34.729096 #16615]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-02T13:21:34.729548 #16615]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-02T13:21:34.729900 #16615]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-02T13:21:34.730335 #16615]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-02T13:21:34.730691 #16615]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-02T13:21:34.731051 #16615]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-02T13:21:34.731492 #16615]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-02T13:21:34.731868 #16615]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-02T13:21:34.732396 #16615]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-02T13:21:34.732894 #16615]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-02T13:21:34.733463 #16615]  INFO -- : 0:  commonjs (0.2.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/commonjs-0.2.7.gemspec
+I, [2014-02-02T13:21:34.734022 #16615]  INFO -- : 0:  hike (1.2.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-02T13:21:34.734440 #16615]  INFO -- : 0:  jbuilder (1.5.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-02-02T13:21:34.734797 #16615]  INFO -- : 0:  jquery-rails (3.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.1.0.gemspec
+I, [2014-02-02T13:21:34.735234 #16615]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-02T13:21:34.735603 #16615]  INFO -- : 0:  less (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/less-2.4.0.gemspec
+I, [2014-02-02T13:21:34.736006 #16615]  INFO -- : 0:  less-rails (2.4.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/less-rails-2.4.2.gemspec
+I, [2014-02-02T13:21:34.736503 #16615]  INFO -- : 0:  libv8 (3.16.14.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-02T13:21:35.432579 #16615]  INFO -- : 0:  mini_portile (0.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-02-02T13:23:29.878019 #16615]  INFO -- : 0:  nokogiri (1.6.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-02-02T13:23:29.879014 #16615]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-02T13:23:29.879721 #16615]  INFO -- : 0:  sprockets (2.10.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-02-02T13:23:29.880418 #16615]  INFO -- : 0:  sprockets-rails (2.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-02-02T13:23:29.881095 #16615]  INFO -- : 0:  rails (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-02-02T13:23:29.881764 #16615]  INFO -- : 0:  rdoc (4.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-02-02T13:23:29.882397 #16615]  INFO -- : 0:  ref (1.0.5) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ref-1.0.5.gemspec
+I, [2014-02-02T13:23:29.882891 #16615]  INFO -- : 0:  sass (3.2.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-3.2.14.gemspec
+I, [2014-02-02T13:23:29.883550 #16615]  INFO -- : 0:  sass-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-02-02T13:23:29.884113 #16615]  INFO -- : 0:  sdoc (0.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-02-02T13:23:29.884734 #16615]  INFO -- : 0:  sqlite3 (1.3.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-02T13:23:29.885356 #16615]  INFO -- : 0:  therubyracer (0.12.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/therubyracer-0.12.0.gemspec
+I, [2014-02-02T13:23:29.885906 #16615]  INFO -- : 0:  turbolinks (2.2.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.1.gemspec
+I, [2014-02-02T13:23:29.886526 #16615]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-02-02T13:23:29.887060 #16615]  INFO -- : 0:  uglifier (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-02-15T20:20:52.814665 #10208]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-15T20:20:52.815304 #10208]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-15T20:20:52.815668 #10208]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-15T20:20:52.816132 #10208]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-15T20:20:52.816652 #10208]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-15T20:20:52.817199 #10208]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-15T20:20:52.817583 #10208]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-15T20:20:52.817980 #10208]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-15T20:20:52.818400 #10208]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-15T20:20:52.818757 #10208]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-15T20:20:52.819216 #10208]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-15T20:20:52.819563 #10208]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-15T20:20:52.819915 #10208]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-15T20:20:52.820414 #10208]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-15T20:20:52.820769 #10208]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-15T20:20:52.821213 #10208]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-15T20:20:52.821621 #10208]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-15T20:20:52.822024 #10208]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-15T20:20:52.822398 #10208]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-15T20:20:52.822739 #10208]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-15T20:20:52.823177 #10208]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-15T20:20:52.823538 #10208]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-15T20:20:52.824020 #10208]  INFO -- : 0:  mini_portile (0.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-02-15T20:20:52.824417 #10208]  INFO -- : 0:  nokogiri (1.6.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-02-15T20:20:53.499583 #10208]  INFO -- : 0:  robotex (1.0.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/robotex-1.0.0.gemspec
+I, [2014-02-15T20:20:54.152619 #10208]  INFO -- : 0:  anemone (0.7.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/anemone-0.7.2.gemspec
+I, [2014-02-15T20:20:54.153345 #10208]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-15T20:20:54.153749 #10208]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-15T20:20:54.154186 #10208]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-15T20:20:54.154706 #10208]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-15T20:20:54.155093 #10208]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-15T20:20:54.155566 #10208]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-15T20:20:54.156045 #10208]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-15T20:20:54.156561 #10208]  INFO -- : 0:  commonjs (0.2.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/commonjs-0.2.7.gemspec
+I, [2014-02-15T20:20:54.157024 #10208]  INFO -- : 0:  hike (1.2.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-02-15T20:20:54.157515 #10208]  INFO -- : 0:  jbuilder (1.5.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-02-15T20:20:54.157959 #10208]  INFO -- : 0:  jquery-rails (3.1.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.1.0.gemspec
+I, [2014-02-15T20:20:54.158419 #10208]  INFO -- : 0:  json (1.8.1) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-15T20:20:54.158808 #10208]  INFO -- : 0:  less (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/less-2.4.0.gemspec
+I, [2014-02-15T20:20:54.159306 #10208]  INFO -- : 0:  less-rails (2.4.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/less-rails-2.4.2.gemspec
+I, [2014-02-15T20:20:54.159761 #10208]  INFO -- : 0:  libv8 (3.16.14.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/libv8-3.16.14.3-x86_64-linux.gemspec
+I, [2014-02-15T20:20:54.160292 #10208]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-15T20:20:54.160675 #10208]  INFO -- : 0:  sprockets (2.10.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-02-15T20:20:54.161067 #10208]  INFO -- : 0:  sprockets-rails (2.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-02-15T20:20:54.161591 #10208]  INFO -- : 0:  rails (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-02-15T20:20:54.161991 #10208]  INFO -- : 0:  rdoc (4.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-02-15T20:20:54.162556 #10208]  INFO -- : 0:  ref (1.0.5) from /usr/local/rvm/gems/ruby-2.1.0/specifications/ref-1.0.5.gemspec
+I, [2014-02-15T20:20:54.163039 #10208]  INFO -- : 0:  sass (3.2.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-3.2.14.gemspec
+I, [2014-02-15T20:20:54.163559 #10208]  INFO -- : 0:  sass-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-02-15T20:20:54.163975 #10208]  INFO -- : 0:  sdoc (0.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-02-15T20:20:54.164542 #10208]  INFO -- : 0:  sqlite3 (1.3.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-15T20:20:54.164943 #10208]  INFO -- : 0:  therubyracer (0.12.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/therubyracer-0.12.0.gemspec
+I, [2014-02-15T20:20:54.165781 #10208]  INFO -- : 0:  turbolinks (2.2.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.1.gemspec
+I, [2014-02-15T20:20:54.166313 #10208]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /usr/local/rvm/gems/ruby-2.1.0/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2014-02-15T20:20:54.166735 #10208]  INFO -- : 0:  uglifier (2.4.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-02-15T22:14:34.340932 #10585]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-15T22:14:34.341591 #10585]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-15T22:14:34.341962 #10585]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-15T22:14:34.342424 #10585]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-15T22:14:34.342780 #10585]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-15T22:14:34.343147 #10585]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-15T22:14:34.343607 #10585]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-15T22:14:34.343958 #10585]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-15T22:14:34.344429 #10585]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-15T22:14:34.344814 #10585]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-15T22:14:34.345162 #10585]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-15T22:14:34.345562 #10585]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-15T22:14:34.345987 #10585]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-15T22:14:34.346390 #10585]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-15T22:14:34.346728 #10585]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-15T22:14:34.347068 #10585]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-15T22:14:34.347644 #10585]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-15T22:14:34.348041 #10585]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-15T22:14:34.348451 #10585]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-15T22:14:34.348824 #10585]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-15T22:14:34.349330 #10585]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-15T22:14:34.349673 #10585]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-15T22:14:34.350119 #10585]  INFO -- : 0:  mini_portile (0.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-02-15T22:14:34.350503 #10585]  INFO -- : 0:  nokogiri (1.6.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-02-15T22:14:34.350905 #10585]  INFO -- : 0:  robotex (1.0.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/robotex-1.0.0.gemspec
+I, [2014-02-15T22:14:34.351340 #10585]  INFO -- : 0:  anemone (0.7.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/anemone-0.7.2.gemspec
+I, [2014-02-15T22:14:34.351705 #10585]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-15T22:14:34.352295 #10585]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-15T22:14:34.352674 #10585]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-15T22:14:34.353109 #10585]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-15T22:14:34.353493 #10585]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-15T22:14:34.353924 #10585]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-15T22:14:34.354359 #10585]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-15T22:14:34.354750 #10585]  INFO -- : 0:  commonjs (0.2.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/commonjs-0.2.7.gemspec
+E, [2014-02-15T22:14:35.509374 #10585] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /usr/local/rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /usr/local/rvm/gems/ruby-2.1.0/bin:/usr/local/rvm/gems/ruby-2.1.0@global/bin:/usr/local/rvm/rubies/ruby-2.1.0/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/rvm/bin:/root/bin
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/local/rvm/rubies/ruby-2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /usr/local/rvm/gems/ruby-2.1.0/gems/rmagick-2.13.2 for inspection.
+Results logged to /usr/local/rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/rmagick-2.13.2/gem_make.out
+
+/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/bundle:23:in `load'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/bundle:23:in `<main>'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-02-15T22:17:29.454808 #10598]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-02-15T22:17:29.455383 #10598]  INFO -- : 0:  i18n (0.6.9) from /usr/local/rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-15T22:17:29.455718 #10598]  INFO -- : 0:  minitest (4.7.5) from /usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-15T22:17:29.456078 #10598]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-15T22:17:29.456481 #10598]  INFO -- : 0:  atomic (1.1.14) from /usr/local/rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-15T22:17:29.456823 #10598]  INFO -- : 0:  thread_safe (0.1.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-15T22:17:29.457176 #10598]  INFO -- : 0:  tzinfo (0.3.38) from /usr/local/rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-15T22:17:29.457561 #10598]  INFO -- : 0:  activesupport (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-15T22:17:29.457898 #10598]  INFO -- : 0:  builder (3.1.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-02-15T22:17:29.458296 #10598]  INFO -- : 0:  erubis (2.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-02-15T22:17:29.458639 #10598]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-15T22:17:29.458981 #10598]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-15T22:17:29.459362 #10598]  INFO -- : 0:  actionpack (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-02-15T22:17:29.459717 #10598]  INFO -- : 0:  mime-types (1.25.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-02-15T22:17:29.460059 #10598]  INFO -- : 0:  polyglot (0.3.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-02-15T22:17:29.460483 #10598]  INFO -- : 0:  treetop (1.4.15) from /usr/local/rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-02-15T22:17:29.460835 #10598]  INFO -- : 0:  mail (2.5.4) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-02-15T22:17:29.461222 #10598]  INFO -- : 0:  actionmailer (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-02-15T22:17:29.461579 #10598]  INFO -- : 0:  activemodel (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-02-15T22:17:29.461967 #10598]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-02-15T22:17:29.462394 #10598]  INFO -- : 0:  arel (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-02-15T22:17:29.462716 #10598]  INFO -- : 0:  activerecord (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-02-15T22:17:29.463056 #10598]  INFO -- : 0:  mini_portile (0.5.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-02-15T22:17:29.463454 #10598]  INFO -- : 0:  nokogiri (1.6.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-02-15T22:17:29.463800 #10598]  INFO -- : 0:  robotex (1.0.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/robotex-1.0.0.gemspec
+I, [2014-02-15T22:17:29.464137 #10598]  INFO -- : 0:  anemone (0.7.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/anemone-0.7.2.gemspec
+I, [2014-02-15T22:17:29.464519 #10598]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-15T22:17:29.464872 #10598]  INFO -- : 0:  coffee-script-source (1.7.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.7.0.gemspec
+I, [2014-02-15T22:17:29.465295 #10598]  INFO -- : 0:  execjs (2.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-02-15T22:17:29.465640 #10598]  INFO -- : 0:  coffee-script (2.2.0) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-02-15T22:17:29.465957 #10598]  INFO -- : 0:  thor (0.18.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-02-15T22:17:29.466368 #10598]  INFO -- : 0:  railties (4.0.2) from /usr/local/rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-02-15T22:17:29.466708 #10598]  INFO -- : 0:  coffee-rails (4.0.1) from /usr/local/rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-02-15T22:17:29.467045 #10598]  INFO -- : 0:  commonjs (0.2.7) from /usr/local/rvm/gems/ruby-2.1.0/specifications/commonjs-0.2.7.gemspec
+E, [2014-02-15T22:17:29.827135 #10598] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /usr/local/rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /usr/local/rvm/gems/ruby-2.1.0/bin:/usr/local/rvm/gems/ruby-2.1.0@global/bin:/usr/local/rvm/rubies/ruby-2.1.0/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/rvm/bin:/root/bin
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/local/rvm/rubies/ruby-2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /usr/local/rvm/gems/ruby-2.1.0/gems/rmagick-2.13.2 for inspection.
+Results logged to /usr/local/rvm/gems/ruby-2.1.0/extensions/x86_64-linux/2.1.0/rmagick-2.13.2/gem_make.out
+
+/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/usr/local/rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/usr/local/rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/bundle:23:in `load'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/bundle:23:in `<main>'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/usr/local/rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'

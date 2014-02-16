@@ -1,12 +1,14 @@
-<div class="hero-unit">
-<% @recipes.each do |recipe| %>
-<div class="hero-unit">
-<h3>[レシピ] <%= recipe.title %></h3></div>
-<p class="bg-success">
-[ULR] <%= recipe.ulr %><br />
-[概要] <%= recipe.summary %><br />
-[つくレポ数] <%= recipe.num_tsukurepo %><br />
-</p>
-<% end %>
+<div id="wrapper">
+	<div id="columns">
+		<% @recipes.each do |recipe| %>
+		<div class="pin">
+			<%= image_tag(recipe.image_ulr) %>
+			<p>
+				<%= recipe.title %><br />
+				[概要] <%= recipe.summary %><br />
+				[つくレポ数] <%= recipe.num_tsukurepo %><br />
+			</p>
+		</div>
+		<% end %>
+	</div>
 </div>
-

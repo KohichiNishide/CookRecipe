@@ -14,7 +14,7 @@ rerun.txt
 pickle-email-*.html
 config/initializers/secret_token.rb
 config/secrets.yml
-/app/assets/images/*.jpg
+app/assets/images/**.jpg
 
 ## Environment normalisation:
 /.bundle

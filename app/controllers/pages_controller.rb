@@ -56,10 +56,11 @@ class PagesController < ApplicationController
 
   def save_image(url)
     # ready filepath
-    fileName = File.basename(url) + ".jpg"
-    dirName = "/root/rails_projects/ryorigasusumu/app/app/assets/images/"
-    filePath = dirName + fileName
-    
+    fileName = File.basename(url)
+    newFileName = fileName.split('?')
+    dirName = "./app/assets/images/"
+    filePath = dirName + newFileName[0]
+ 
     # create folder if not exist
     FileUtils.mkdir_p(dirName) unless FileTest.exist?(dirName)
     
@@ -69,7 +70,7 @@ class PagesController < ApplicationController
             output.write(data.read)
         end
     end
-    filePath
+    newFileName[0]
   end
 
   def show

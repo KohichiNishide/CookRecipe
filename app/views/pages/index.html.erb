@@ -1,6 +1,15 @@
-<div class="hero-unit">
-<h1>構築中</h1>
+<div id="wrapper">
+	<div id="columns">
+		<% @recipes.each do |recipe| %>
+		<div class="pin">
+			<img src= <%= recipe.image_ulr %> />
+			<p>
+				[レシピ] <%= recipe.title %><br />
+				[ULR] <%= recipe.ulr %><br />
+				[概要] <%= recipe.summary %><br />
+				[つくレポ数] <%= recipe.num_tsukurepo %><br />
+			</p>
+		</div>
+		<% end %>
+	</div>
 </div>
-<p>料理の献立関係の情報を共有する予定です</p>
-
-<%= db_image_tag(1) %>
