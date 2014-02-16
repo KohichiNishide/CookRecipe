@@ -50,3 +50,4 @@ gem "twitter-bootstrap-rails"
 gem "less-rails"
 gem 'nokogiri'
 gem 'anemone'
+gem 'google-analytics-rails'

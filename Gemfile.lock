@@ -41,6 +41,7 @@ GEM
     commonjs (0.2.7)
     erubis (2.7.0)
     execjs (2.0.2)
+    google-analytics-rails (0.0.4)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -134,6 +135,7 @@ DEPENDENCIES
   anemone
   coffee-rails (~> 4.0.0)
   execjs
+  google-analytics-rails
   jbuilder (~> 1.2)
   jquery-rails
   less-rails

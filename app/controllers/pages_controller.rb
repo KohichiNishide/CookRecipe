@@ -79,6 +79,6 @@ class PagesController < ApplicationController
   end
 
   def show_all
-    @recipes = Recipe.all
+    @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
   end
 end
