@@ -27,4 +27,5 @@ App::Application.configure do
   # number of complex assets.
   config.assets.debug = true
   GA.tracker = "UA-48114784-1"
+  config.assets.compile = true
 end
