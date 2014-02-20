@@ -6,6 +6,7 @@ require "fileutils"
 
 class PagesController < ApplicationController
   def index
+    show_all
   end
 
   def get_recipe
