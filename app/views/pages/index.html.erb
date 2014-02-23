@@ -1,15 +1,19 @@
 <div id="wrapper">
-        <h3>構築中</h3>
-        <div id="columns">
-                <% @recipes.each do |recipe| %>
-                <div class="pin">
-                        <%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
-                        <p>
-                                <%= recipe.title %><br />
-                                [概要] <%= recipe.summary %><br />
-                                [つくレポ数] <%= recipe.num_tsukurepo %><br />
-                        </p>
-                </div>
-                <% end %>
-        </div>
+	<div class="jumbotron">
+        <h1>主人が喜ぶレシピをお届けします</h1>
+        <p>Recipaperは料理が得意でないあなたも「簡単に」「素早く」作れるものを紹介します。</p>
+    </div>
+	<div id="columns">
+		<% @recipes.each do |recipe| %>
+		<div class="pin">
+			<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
+			<p>
+				<%= recipe.title %><br />
+				[概要] <%= recipe.summary %><br />
+				[つくレポ数] <%= recipe.num_tsukurepo %><br />
+			</p>
+		</div>
+		<% end %>
+	</div>
 </div>
+

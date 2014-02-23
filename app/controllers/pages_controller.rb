@@ -5,6 +5,7 @@ require "open-uri"
 require "fileutils"
 
 class PagesController < ApplicationController
+  layout 'amelia'
   def index
     show_all
   end
@@ -61,10 +62,10 @@ class PagesController < ApplicationController
     newFileName = fileName.split('?')
     dirName = "./app/assets/images/"
     filePath = dirName + newFileName[0]
- 
+
     # create folder if not exist
     FileUtils.mkdir_p(dirName) unless FileTest.exist?(dirName)
-    
+
     # write image adata
     open(filePath, 'wb') do |output|
         open(url) do |data|

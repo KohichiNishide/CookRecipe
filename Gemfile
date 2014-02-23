@@ -46,8 +46,11 @@ end
 
 gem 'therubyracer'
 gem 'execjs'
-gem "twitter-bootstrap-rails"
 gem "less-rails"
 gem 'nokogiri'
 gem 'anemone'
 gem 'google-analytics-rails'
+
+gem 'twitter-bootswatch-rails', '~> 3.1.1'
+gem 'twitter-bootswatch-rails-fontawesome'
+gem 'twitter-bootswatch-rails-helpers'
