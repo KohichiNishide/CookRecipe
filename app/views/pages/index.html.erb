@@ -1,11 +1,14 @@
 <div id="wrapper">
+	<div class="jumbotron">
+        <h1>主人が喜ぶレシピをお届けします</h1>
+        <p>Recipaperは料理が得意でないあなたも「簡単に」「素早く」作れるものを紹介します。</p>
+    </div>
 	<div id="columns">
 		<% @recipes.each do |recipe| %>
 		<div class="pin">
-			<img src= <%= recipe.image_ulr %> />
+			<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
 			<p>
-				[レシピ] <%= recipe.title %><br />
-				[ULR] <%= recipe.ulr %><br />
+				<%= recipe.title %><br />
 				[概要] <%= recipe.summary %><br />
 				[つくレポ数] <%= recipe.num_tsukurepo %><br />
 			</p>
