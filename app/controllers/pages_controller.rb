@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # coding: utf-8
 require 'anemone'
 require 'rubygems'
@@ -11,8 +13,8 @@ class PagesController < ApplicationController
   end
 
   def get_recipe
-    category_url = "http://cookpad.com/category/1307"
-    page_number = 44
+    category_url = "http://cookpad.com/category/168"
+    page_number = 29
 
     opts = {
       :skip_query_strings => false,
@@ -36,6 +38,17 @@ class PagesController < ApplicationController
                 r[:title] = page.doc.xpath('//*[@id="recipe-title"]/h1/text()').shift.content.strip if page.doc
                 r[:image_ulr] = page.doc.xpath('//*[@id="main-photo"]/img').shift.attributes['src'].value
                 r[:summary] = page.doc.xpath('//*[@id="description"]/text()').shift.content.strip
+                r[:servings_for] = page.doc.xpath('//*[@id="ingredients"]/div[1]/h3/div[1]/span[2]').shift.children.shift.content.strip.gsub(%r![()（）]!, '')
+                r[:ingredients_list] = []
+                page.doc.xpath('//*[@id="ingredients_list"]').children.each do |ingredient|
+                  next if ingredient.xpath('div[1]/span').empty?
+                  r[:ingredients_list] << {:name => ingredient.xpath('div[1]/span').children.shift.content, :quantity => ingredient.xpath('div[2]').children.shift.content}
+                end
+                r[:steps] = []
+                page.doc.xpath('//*[@id="steps"]').children.each do |step|
+                  next if step.xpath('dl/dt/h3').empty?
+                  r[:steps] << {:step => step.xpath('dl/dt/h3').children.shift.content.strip, :instruction => step.xpath('dl/dd/p').children.shift.content.strip}
+                end
                 r[:num_tsukurepo] = page.doc.xpath('//*[@id="tsukurepo"]/div[1]/div[1]/span[1]').shift.content.strip
             rescue
                 next
@@ -47,10 +60,15 @@ class PagesController < ApplicationController
     #puts recipes
     recipes.each do |r|
       recipe = Recipe.new
+      recipe.kind = "オムライス"
       recipe.title = r[:title]
       recipe.ulr = r[:ulr]
       recipe.image_ulr = save_image(r[:image_ulr])
       recipe.summary = r[:summary]
+      recipe.servings_for = r[:servings_for]
+      recipe.ingredients_list = r[:ingredients_list]
+      recipe.steps = r[:steps]
+      recipe.site = "cookpad"
       recipe.num_tsukurepo = r[:num_tsukurepo]
       recipe.save
     end
