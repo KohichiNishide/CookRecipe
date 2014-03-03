@@ -36,6 +36,7 @@ body {
  */
 #tiles li {
   width: 200px;
+  list-style-type:none;
   background-color: #FEFEFE;
   border: 2px solid #FAFAFA;
           border-radius: 2px;
@@ -72,9 +73,9 @@ body {
 #tiles li p {
   color: #666;
   font-size: 13px;
-line-height: 20px;
-text-align: center;
-font-weight: 200;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 200;
   margin: 7px 0 2px 7px;
 }
 

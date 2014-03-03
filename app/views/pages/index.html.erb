@@ -1,7 +1,7 @@
 <div class="progress-bar"></div>
 <div id="wrapper">
 	<div class="jumbotron">
-        <h1>旦那が喜ぶレシピをお届けします</h1>
+        <h1>愛と料理をまわしてみませんか？</h1>
         <p>Recipaperは料理が苦手なあなたも「簡単に」「素早く」作れるものを紹介します。</p>
     </div>
 		<div id="main" role="main">
@@ -9,7 +9,6 @@
 			<% @recipes.each do |recipe| %>
 			<li>
 				<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
-				<%#= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
 				<p>
 					<%= recipe.title %><br />
 					[概要] <%= recipe.summary %><br />
