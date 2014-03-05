@@ -4,18 +4,18 @@
         <h1>毎日の笑顔レシピ</h1>
         <p>Recipaperは料理が苦手なあなたも「簡単に」「素早く」作れるものを紹介します。</p>
     </div>
-		<div id="main" role="main">
-			<ul id="tiles">
-			<% @recipes.each do |recipe| %>
-			<li>
-				<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
-				<p>
-					<%= recipe.title %><br />
-					[概要] <%= recipe.summary %><br />
-					[つくレポ数] <%= recipe.num_tsukurepo %><br />
-				</p>
-			</li>
-			<% end %>
-			</ul>
-		</div>
+    <h1>■おすすめの簡単オムライスレシピまとめ</h1>
+	<div id="main" role="main">
+		<ul id="tiles">
+		<% @recipes.each do |recipe| %>
+		<li>
+			<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
+			<p>
+				<%= recipe.title %><br />
+				[レシポイント] <%= recipe.num_tsukurepo %><br />
+			</p>
+		</li>
+		<% end %>
+		</ul>
+	</div>
 </div>
