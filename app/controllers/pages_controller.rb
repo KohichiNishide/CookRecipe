@@ -9,40 +9,12 @@ require "fileutils"
 class PagesController < ApplicationController
   layout 'amelia'
   def index
-    show_all
-  end
-
-  def show
-    recipe = Recipe.find params[:id]
-    send_data recipe.image_data, :type => "image/jpeg", :disposition => "inline"
-  end
-
-  def show_all
     @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
   end
 
   def get_recipe
     get_cookpad_recipe
-    #get_rakuten_recipe
-  end
-
-  def save_image(url)
-    # ready filepath
-    fileName = File.basename(url)
-    newFileName = fileName.split('?')
-    dirName = "./app/assets/images/"
-    filePath = dirName + newFileName[0]
-
-    # create folder if not exist
-    FileUtils.mkdir_p(dirName) unless FileTest.exist?(dirName)
-
-    # write image adata
-    open(filePath, 'wb') do |output|
-        open(url) do |data|
-            output.write(data.read)
-        end
-    end
-    newFileName[0]
+    get_rakuten_recipe
   end
 
   def get_cookpad_recipe
@@ -90,24 +62,7 @@ class PagesController < ApplicationController
         end
       end
     }
-    #puts recipes
-    recipes.each do |r|
-      recipe = Recipe.new
-      recipe.kind = "オムライス"
-      recipe.title = r[:title]
-      recipe.ulr = r[:ulr]
-      recipe.image_ulr = save_image(r[:image_ulr])
-      recipe.summary = r[:summary]
-      recipe.servings_for = r[:servings_for]
-      recipe.ingredients_list = r[:ingredients_list]
-      recipe.steps = r[:steps]
-      recipe.site = "cookpad"
-      recipe.num_tsukurepo = r[:num_tsukurepo]
-      begin
-        recipe.save
-      rescue
-      end
-    end
+    save_recipes(recipes, "オムライス", "cookpad")
   end
 
   def get_rakuten_recipe
@@ -156,10 +111,13 @@ class PagesController < ApplicationController
           end
       end
     }
-    #puts recipes
+    save_recipes(recipes, "オムライス", "rakuten")
+  end
+
+  def save_recipes(recipes, kind_recipe, site)
     recipes.each do |r|
       recipe = Recipe.new
-      recipe.kind = "オムライス"
+      recipe.kind = kind_recipe
       recipe.title = r[:title]
       recipe.ulr = r[:ulr]
       recipe.image_ulr = save_image(r[:image_ulr])
@@ -167,12 +125,31 @@ class PagesController < ApplicationController
       recipe.servings_for = r[:servings_for]
       recipe.ingredients_list = r[:ingredients_list]
       recipe.steps = r[:steps]
-      recipe.site = "rakuten"
+      recipe.site = site
       recipe.num_tsukurepo = r[:num_tsukurepo]
       begin
         recipe.save
       rescue
       end
     end
+  end
+
+  def save_image(url)
+    # ready filepath
+    fileName = File.basename(url)
+    newFileName = fileName.split('?')
+    dirName = "./app/assets/images/"
+    filePath = dirName + newFileName[0]
+
+    # create folder if not exist
+    FileUtils.mkdir_p(dirName) unless FileTest.exist?(dirName)
+
+    # write image adata
+    open(filePath, 'wb') do |output|
+        open(url) do |data|
+            output.write(data.read)
+        end
+    end
+    newFileName[0]
   end
 end
