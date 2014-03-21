@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140303131241) do
+ActiveRecord::Schema.define(version: 20140321045220) do
 
   create_table "recipes", force: true do |t|
     t.string   "title"
@@ -28,5 +28,7 @@ ActiveRecord::Schema.define(version: 20140303131241) do
     t.text     "steps"
     t.string   "kind"
   end
+
+  add_index "recipes", ["title"], name: "index_recipes_on_title", unique: true
 
 end
