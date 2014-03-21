@@ -12,9 +12,18 @@ class PagesController < ApplicationController
     show_all
   end
 
+  def show
+    recipe = Recipe.find params[:id]
+    send_data recipe.image_data, :type => "image/jpeg", :disposition => "inline"
+  end
+
+  def show_all
+    @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
+  end
+
   def get_recipe
     get_cookpad_recipe
-    get_rakuten_recipe
+    #get_rakuten_recipe
   end
 
   def save_image(url)
@@ -94,7 +103,10 @@ class PagesController < ApplicationController
       recipe.steps = r[:steps]
       recipe.site = "cookpad"
       recipe.num_tsukurepo = r[:num_tsukurepo]
-      recipe.save
+      begin
+        recipe.save
+      rescue
+      end
     end
   end
 
@@ -157,16 +169,10 @@ class PagesController < ApplicationController
       recipe.steps = r[:steps]
       recipe.site = "rakuten"
       recipe.num_tsukurepo = r[:num_tsukurepo]
-      recipe.save
+      begin
+        recipe.save
+      rescue
+      end
     end
-  end
-
-  def show
-    recipe = Recipe.find params[:id]
-    send_data recipe.image_data, :type => "image/jpeg", :disposition => "inline"
-  end
-
-  def show_all
-    @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
   end
 end
