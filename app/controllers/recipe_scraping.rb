@@ -13,13 +13,16 @@ class RecipeScraping
 
   def get_cookpad_recipe
     category_url = "http://cookpad.com/category/168"
-    page_number = 1
+    # Get page number of the category
+    category_doc = Nokogiri::HTML(open(category_url))
+    page_info = category_doc.xpath('//*[@id="mini_paginate"]/span/text()').shift.content.strip
+    page_info_i = page_info.gsub(/[^0-9]/,"")
+    page_number = page_info_i[1, page_info_i.length].to_i
 
     opts = {
       :skip_query_strings => false,
       :depth_limit => 1,
     }
-
     recipes = []
 
     page_number.times { |number|
