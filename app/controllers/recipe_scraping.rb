@@ -11,8 +11,8 @@ class RecipeScraping
   def initialize(options={})
   end
 
-  def get_cookpad_recipe
-    category_url = "http://cookpad.com/category/168"
+  def get_cookpad_recipe(category_name, category_id)
+    category_url = "http://cookpad.com/category/" + category_id
     # Get page number of the category
     category_doc = Nokogiri::HTML(open(category_url))
     page_info = category_doc.xpath('//*[@id="mini_paginate"]/span/text()').shift.content.strip
@@ -60,11 +60,11 @@ class RecipeScraping
         end
       end
     }
-    save_recipes(recipes, "オムライス", "cookpad")
+    save_recipes(recipes, category_name, "cookpad")
   end
 
-  def get_rakuten_recipe
-    category_url = "http://recipe.rakuten.co.jp/category/14-121/"
+  def get_rakuten_recipe(category_name, category_id)
+    category_url = "http://recipe.rakuten.co.jp/category/" + category_id + "/"
     # Get page number of the category
     category_doc = Nokogiri::HTML(open(category_url))
     page_info = category_doc.xpath('//*[@class="countBox02 clearfix"]/div[2]/ul/li[7]').shift.content.strip
@@ -110,7 +110,7 @@ class RecipeScraping
               end
           end
         }
-    save_recipes(recipes, "オムライス", "rakuten")
+    save_recipes(recipes, category_name, "rakuten")
   end
 
   def save_recipes(recipes, kind_recipe, site)
