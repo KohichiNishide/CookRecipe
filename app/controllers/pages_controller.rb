@@ -8,7 +8,7 @@ class PagesController < ApplicationController
 
   def get_recipe
     recipe_scraping = RecipeScraping.new
-    recipe_scraping.get_cookpad_recipe
-    #recipe_scraping.get_rakuten_recipe
+    #recipe_scraping.get_cookpad_recipe
+    recipe_scraping.get_rakuten_recipe
   end
 end
