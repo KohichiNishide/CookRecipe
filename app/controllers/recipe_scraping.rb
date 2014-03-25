@@ -11,15 +11,18 @@ class RecipeScraping
   def initialize(options={})
   end
 
-  def get_cookpad_recipe
-    category_url = "http://cookpad.com/category/168"
-    page_number = 1
+  def get_cookpad_recipe(category_name, category_id)
+    category_url = "http://cookpad.com/category/" + category_id
+    # Get page number of the category
+    category_doc = Nokogiri::HTML(open(category_url))
+    page_info = category_doc.xpath('//*[@id="mini_paginate"]/span/text()').shift.content.strip
+    page_info_i = page_info.gsub(/[^0-9]/,"")
+    page_number = page_info_i[1, page_info_i.length].to_i
 
     opts = {
       :skip_query_strings => false,
       :depth_limit => 1,
     }
-
     recipes = []
 
     page_number.times { |number|
@@ -57,57 +60,57 @@ class RecipeScraping
         end
       end
     }
-    save_recipes(recipes, "オムライス", "cookpad")
+    save_recipes(recipes, category_name, "cookpad")
   end
 
-  def get_rakuten_recipe
-    category_url = "http://recipe.rakuten.co.jp/category/14-121/"
-    page_number = 1
+  def get_rakuten_recipe(category_name, category_id)
+    category_url = "http://recipe.rakuten.co.jp/category/" + category_id + "/"
+    # Get page number of the category
+    category_doc = Nokogiri::HTML(open(category_url))
+    page_info = category_doc.xpath('//*[@class="countBox02 clearfix"]/div[2]/ul/li[7]').shift.content.strip
+    page_number = page_info.gsub(/[^0-9]/,"").to_i
 
     opts = {
         :skip_query_strings => false,
         :depth_limit => 1,
     }
-
     recipes = []
-
     page_number.times { |number|
         recipe_url = category_url + "/" + number.to_s
-
-    Anemone.crawl(recipe_url, opts) do |anemone|
-        anemone.focus_crawl do |page|
-            page.links.keep_if { |link|
-                link.to_s.include?("/recipe/")
-            }
-        end
-        anemone.on_every_page do |page|
-            sleep(1)
-            begin
-                recipe = {}
-                recipe[:ulr] = page.url.to_s
-                recipe[:title] = page.doc.xpath('//*[@property="og:title"]/@content').shift.content.strip if page.doc
-                recipe[:image_ulr] = page.doc.xpath('//*[@property="og:image"]/@content').shift.content.strip
-                recipe[:summary] = page.doc.xpath('//*[@property="og:description"]/@content').shift.content.strip
-                recipe[:servings_for] = page.doc.xpath('//*[@class="detailArea"]/div[1]/div[1]/div[3]/div[1]/h3/span[1]').shift.children.shift.content.strip.gsub(%r![()（）]!, '')
-                recipe[:ingredients_list] = []
-                page.doc.xpath('//*[@class="detailArea"]/div[1]/div[1]/div[3]/ul').children.each do |ingredient|
-                    next if ingredient.xpath('p[2]').empty?
-                    recipe[:ingredients_list] << {:name => ingredient.xpath('p[1]/a').children.shift.content.strip, :quantity => ingredient.xpath('p[2]').children.shift.content.strip}
-                end
-                recipe[:steps] = []
-                page.doc.xpath('//*[@class="howtoArea"]/div[1]/ul').children.each do |step|
-                  next if step.xpath('h4').empty?
-                  recipe[:steps] << {:step => step.xpath('h4').children.shift.content.strip, :instruction => step.xpath('p').children.shift.content.strip}
-                end
-                recipe[:num_tsukurepo] = page.doc.xpath('//*[@class="rcpRepoCont"]/div[1]/div[1]/div[1]/h2/span[1]').shift.content.strip
-            rescue
-                next
+        Anemone.crawl(recipe_url, opts) do |anemone|
+            anemone.focus_crawl do |page|
+                page.links.keep_if { |link|
+                    link.to_s.include?("/recipe/")
+                }
             end
-            recipes << recipe
+            anemone.on_every_page do |page|
+                sleep(1)
+                begin
+                    recipe = {}
+                    recipe[:ulr] = page.url.to_s
+                    recipe[:title] = page.doc.xpath('//*[@property="og:title"]/@content').shift.content.strip if page.doc
+                    recipe[:image_ulr] = page.doc.xpath('//*[@property="og:image"]/@content').shift.content.strip
+                    recipe[:summary] = page.doc.xpath('//*[@property="og:description"]/@content').shift.content.strip
+                    recipe[:servings_for] = page.doc.xpath('//*[@class="detailArea"]/div[1]/div[1]/div[3]/div[1]/h3/span[1]').shift.children.shift.content.strip.gsub(%r![()（）]!, '')
+                    recipe[:ingredients_list] = []
+                    page.doc.xpath('//*[@class="detailArea"]/div[1]/div[1]/div[3]/ul').children.each do |ingredient|
+                        next if ingredient.xpath('p[2]').empty?
+                        recipe[:ingredients_list] << {:name => ingredient.xpath('p[1]/a').children.shift.content.strip, :quantity => ingredient.xpath('p[2]').children.shift.content.strip}
+                    end
+                    recipe[:steps] = []
+                    page.doc.xpath('//*[@class="howtoArea"]/div[1]/ul').children.each do |step|
+                      next if step.xpath('h4').empty?
+                      recipe[:steps] << {:step => step.xpath('h4').children.shift.content.strip, :instruction => step.xpath('p').children.shift.content.strip}
+                    end
+                    recipe[:num_tsukurepo] = page.doc.xpath('//*[@class="rcpRepoCont"]/div[1]/div[1]/div[1]/h2/span[1]').shift.content.strip
+                rescue
+                    next
+                end
+                recipes << recipe
+              end
           end
-      end
-    }
-    save_recipes(recipes, "オムライス", "rakuten")
+        }
+    save_recipes(recipes, category_name, "rakuten")
   end
 
   def save_recipes(recipes, kind_recipe, site)
