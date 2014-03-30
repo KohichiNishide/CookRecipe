@@ -18,4 +18,8 @@ class PagesController < ApplicationController
       recipe_scraping.get_rakuten_recipe(category_name, category["rakuten"])
     }
   end
+
+  def show_category
+
+  end
 end
