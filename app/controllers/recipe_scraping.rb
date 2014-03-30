@@ -39,6 +39,7 @@ class RecipeScraping
                 recipe = {}
                 recipe[:ulr] = page.url.to_s
                 recipe[:title] = page.doc.xpath('//*[@id="recipe-title"]/h1/text()').shift.content.strip if page.doc
+                Rails.logger.debug(recipe[:title]);
                 recipe[:image_ulr] = page.doc.xpath('//*[@id="main-photo"]/img').shift.attributes['src'].value
                 recipe[:summary] = page.doc.xpath('//*[@id="description"]/text()').shift.content.strip
                 recipe[:servings_for] = page.doc.xpath('//*[@id="ingredients"]/div[1]/h3/div[1]/span[2]').shift.children.shift.content.strip.gsub(%r![()（）]!, '')
@@ -84,11 +85,12 @@ class RecipeScraping
                 }
             end
             anemone.on_every_page do |page|
-                sleep(1)
+                sleep(0.5)
                 begin
                     recipe = {}
                     recipe[:ulr] = page.url.to_s
                     recipe[:title] = page.doc.xpath('//*[@property="og:title"]/@content').shift.content.strip if page.doc
+                    Rails.logger.debug(recipe[:title]);
                     recipe[:image_ulr] = page.doc.xpath('//*[@property="og:image"]/@content').shift.content.strip
                     recipe[:summary] = page.doc.xpath('//*[@property="og:description"]/@content').shift.content.strip
                     recipe[:servings_for] = page.doc.xpath('//*[@class="detailArea"]/div[1]/div[1]/div[3]/div[1]/h3/span[1]').shift.children.shift.content.strip.gsub(%r![()（）]!, '')

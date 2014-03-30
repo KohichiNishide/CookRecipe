@@ -14,7 +14,7 @@ class PagesController < ApplicationController
       #Rails.logger.debug(category["cookpad"]);
       #Rails.logger.debug(category["rakuten"]);
       category_name = category["category_name"]
-      #recipe_scraping.get_cookpad_recipe(category_name, category["cookpad"].to_s)
+      recipe_scraping.get_cookpad_recipe(category_name, category["cookpad"].to_s)
       recipe_scraping.get_rakuten_recipe(category_name, category["rakuten"])
     }
   end
