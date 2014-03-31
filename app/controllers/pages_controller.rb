@@ -29,7 +29,7 @@ class PagesController < ApplicationController
       @recipes = Recipe.find(:all,:conditions => { :kind => "アスパラガス" },:order => "num_tsukurepo DESC",:limit => 50)
     when '1274' then #グリーンピース
       @recipes = Recipe.find(:all,:conditions => { :kind => "グリーンピース" },:order => "num_tsukurepo DESC",:limit => 50)
-    when '1272' then #さやえんどう
+    when '1276' then #さやえんどう
       @recipes = Recipe.find(:all,:conditions => { :kind => "さやえんどう" },:order => "num_tsukurepo DESC",:limit => 50)
     when '1278' then #そら豆
       @recipes = Recipe.find(:all,:conditions => { :kind => "そら豆" },:order => "num_tsukurepo DESC",:limit => 50)
