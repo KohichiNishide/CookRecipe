@@ -1,72 +1,21 @@
-<div class="splash">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Free themes for Bootstrap</h1>
-        <div id="social">
-          <span>
-            <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=thomaspark&repo=bootswatch&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe>
-            <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=thomaspark&repo=bootswatch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-          </span>
-          <span>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false" data-show-screen-name="true">Follow @thomashpark</a>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bootswatch.com" data-via="thomashpark">Tweet</a>
-          </span>
-        </div>
-        <div class="alert alert-info">
-          Introducing Darkly, a dark version of Flatly. <a href="http://news.bootswatch.com/post/79869499737/introducing-darkly">Learn more...</a>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="well sponsor" style="background-color: rgba(0, 0, 0, 0.4);">
-              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" rel="nofollow" target="_blank">
-                <span style="float: left; margin-right: 15px;">
-                  <img src="http://srv.buysellads.com/direct/image/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" width="175" height="135">
-                </span>
-              </a>
-              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" rel="nofollow" target="_blank">
-                <h4 style="margin-bottom: 0.4em;">Treehouse</h4>
-                <div class="clearfix">
-                  <p>Learn Web Design, Coding, Mobile App Development &amp; More.</p>
-                  <p>Start Learning for Free!</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="progress-bar"></div>
+<div id="wrapper">
+  <div class="jumbotron">
+        <h1>毎日の笑顔レシピ</h1>
+        <p>Recipaperは料理が苦手なあなたも「簡単に」「素早く」作れるものを紹介します。</p>
     </div>
-  </div>
-</div>
-
-
-<div class="section-tout">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-file-o"></i> 簡単閲覧</h3>
-        <p>Simply download a CSS file and replace the one in Bootstrap. No messing around with hex values.</p>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-github"></i> Open Source</h3>
-        <p>Bootstrap themes are released under the MIT License and maintained by the community on <a target="_blank" href="https://github.com/thomaspark/bootswatch">GitHub</a>.</p>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-wrench"></i> Tuned for 3.1.1</h3>
-        <p>Themes are built for the latest version of Bootstrap. <a href="/2/">Version 2.3.2</a> and <a target="_blank" href="https://github.com/thomaspark/bootswatch/tags">others</a> are also available to download.</p>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-cogs"></i> Modular</h3>
-         <p>Changes are contained in just two LESS files, enabling modification and ensuring forward compatibility.</p>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-cloud"></i> Get Plugged In</h3>
-        <p>An <a href="./help/#api" onclick="pageTracker._link(this.href); return false;">API</a> is available for integrating with your platform. In use by <a href="http://320press.com/wpbs/" target="_blank">WPBS</a>, <a href="http://www.fusionleaf.com/" target="_blank">FusionLeaf</a>, <a href="http://yabdab.com/stacks/snaps/bootsnap/" target="_blank">BootSnap</a>, and others.</p>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <h3><i class="fa fa-bullhorn"></i> Stay Updated</h3>
-        <p>Be notified about updates by subscribing via <a href="http://feeds.feedburner.com/bootswatch">RSS feed</a>, <a href="http://feedburner.google.com/fb/a/mailverify?uri=bootswatch&amp;loc=en_US">email</a>, or <a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Tumblr</a>.</p>
-      </div>
-    </div>
+    <h1>■おすすめの簡単オムライスレシピまとめ</h1>
+  <div id="main" role="main">
+    <ul id="tiles">
+    <% @recipes.each do |recipe| %>
+    <li>
+      <%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
+      <p>
+        <%= recipe.title %><br />
+        [レシポイント] <%= recipe.num_tsukurepo %><br />
+      </p>
+    </li>
+    <% end %>
+    </ul>
   </div>
 </div>

@@ -1,7 +1,6 @@
 # coding: utf-8
 
 class PagesController < ApplicationController
-  layout 'amelia'
   def index
     @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
   end

@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require amelia/loader
-//= require amelia/bootswatch
+//= require twitter/bootstrap
 //= require turbolinks
 
