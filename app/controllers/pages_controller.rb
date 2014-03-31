@@ -44,4 +44,7 @@ class PagesController < ApplicationController
     else
     end
   end
+
+  def contact
+  end
 end
