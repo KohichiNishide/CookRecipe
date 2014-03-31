@@ -9,7 +9,7 @@
       <a class="brand" href="#">ReciPaper</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li class="active"><a href="#">トップ</a></li>
+          <li class="active"><%= link_to "トップ", {:action => 'index'} %></li>
           <li><a href="#contact">お問い合わせ</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -21,15 +21,15 @@
 </div>
 <div class="row-fluid">
   <div class="span4">
-    <h2>発見</h2>
+    <h2>簡単に発見</h2>
     <p>COOKPADや楽天レシピのレシピを人気順に並べています。現在は、つくレポ数順に並べています。</p>
   </div><!--/span-->
   <div class="span4">
-    <h2>一覧</h2>
+    <h2>手間なく閲覧</h2>
     <p>全てを１ページに集約することで、次へボタンを押すことなく、レシピを閲覧することができます。</p>
   </div><!--/span-->
   <div class="span4">
-    <h2>交流（構築中）</h2>
-    <p>Facebookと連携させる予定です。</p>
+    <h2>友達と交流</h2>
+    <p>Facebookと連携させる予定です。（構築中）</p>
   </div><!--/span-->
 </div><!--/row-fluid-->
