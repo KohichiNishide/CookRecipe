@@ -12,5 +12,7 @@
  *= require bootstrap_and_overrides
  *= require ../../../vendor/assets/bootstrap/css/bootstrap
  *= require ../../../vendor/assets/bootstrap/css/bootstrap.min
+ *= require pinterest/reset
+ *= require pinterest/main
  *
  */

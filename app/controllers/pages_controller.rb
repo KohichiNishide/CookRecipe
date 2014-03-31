@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # coding: utf-8
 
 class PagesController < ApplicationController
@@ -19,6 +21,27 @@ class PagesController < ApplicationController
   end
 
   def show_category
-
+    @id = params[:id]
+    case @id
+    when '1270' then #たけのこ
+      @recipes = Recipe.find(:all,:conditions => { :kind => "たけのこ" },:order => "num_tsukurepo DESC")
+    when '1272' then #アスパラガス
+      @recipes = Recipe.find(:all,:conditions => { :kind => "アスパラガス" },:order => "num_tsukurepo DESC")
+    when '1274' then #グリーンピース
+      @recipes = Recipe.find(:all,:conditions => { :kind => "グリーンピース" },:order => "num_tsukurepo DESC")
+    when '1272' then #さやえんどう
+      @recipes = Recipe.find(:all,:conditions => { :kind => "さやえんどう" },:order => "num_tsukurepo DESC")
+    when '1278' then #そら豆
+      @recipes = Recipe.find(:all,:conditions => { :kind => "そら豆" },:order => "num_tsukurepo DESC")
+    when '522' then #新たまねぎ
+      @recipes = Recipe.find(:all,:conditions => { :kind => "新たまねぎ" },:order => "num_tsukurepo DESC")
+    when '1271' then #アボカド
+      @recipes = Recipe.find(:all,:conditions => { :kind => "アボカド" },:order => "num_tsukurepo DESC")
+    when '525' then #レタス
+      @recipes = Recipe.find(:all,:conditions => { :kind => "レタス" },:order => "num_tsukurepo DESC")
+    when '1430' then #ふき
+      @recipes = Recipe.find(:all,:conditions => { :kind => "ふき" },:order => "num_tsukurepo DESC")
+    else
+    end
   end
 end

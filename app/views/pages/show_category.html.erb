@@ -1,21 +1,33 @@
-<div class="progress-bar"></div>
-<div id="wrapper">
-  <div class="jumbotron">
-        <h1>毎日の笑顔レシピ</h1>
-        <p>Recipaperは料理が苦手なあなたも「簡単に」「素早く」作れるものを紹介します。</p>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">ReciPaper</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="#">トップ</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
-    <h1>■おすすめの簡単オムライスレシピまとめ</h1>
-  <div id="main" role="main">
-    <ul id="tiles">
-    <% @recipes.each do |recipe| %>
-    <li>
-      <%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
-      <p>
-        <%= recipe.title %><br />
-        [レシポイント] <%= recipe.num_tsukurepo %><br />
-      </p>
-    </li>
-    <% end %>
-    </ul>
   </div>
 </div>
+
+<div id="wrapper">
+<div id="main" role="main">
+  <ul id="tiles">
+  <% @recipes.each do |recipe| %>
+  <li>
+    <%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
+    <p>
+      <%= recipe.title %><br />
+      [レシポイント] <%= recipe.num_tsukurepo %><br />
+    </p>
+  </li>
+  <% end %>
+  </ul>
+</div></div>

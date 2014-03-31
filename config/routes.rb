@@ -1,9 +1,13 @@
 App::Application.routes.draw do
-  get "pages/index"
   get "pages/show_category"
+  get "pages/index"
+  #get "pages/show_category"
   #get "pages/get_recipe"
   root :to => 'pages#index'
+  get 'pages/category/:id' => 'pages#show_category'
   resources :pages
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
