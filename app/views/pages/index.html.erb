@@ -1,21 +1,3 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container-fluid">
-      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="#">ReciPaper</a>
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          <li class="active"><%= link_to "トップ", {:action => 'index'} %></li>
-          <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
-</div>
 <div class="hero-unit">
   <h2>今日のごはんがここにある。</h2>
 </div>
@@ -33,3 +15,36 @@
     <p>Facebookと連携させる予定です。（構築中）</p>
   </div><!--/span-->
 </div><!--/row-fluid-->
+
+<div class ="social">
+  <div class="hatena">
+    <a class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" data-hatena-bookmark-title="recipaper.com" :href="http://b.hatena.ne.jp/entry/http://recipaper.com"></a>
+  </div>
+  <div class="twitter">
+    <a class="twitter-share-button" data-lang="ja" data-via="your-twitter-account" , data-url="http://recipaper.com", href="https://twitter.com/share">ツイート</a>
+  </div>
+  <div class="facebook">
+    <div class=fb-like data-href="http://recipaper.com" data-layout="button_count" data-send="false" data-show-faces="false"></div>
+  </div>
+</div>
+
+<script>
+(function (w, d) {
+    w._gaq = [["_setAccount", "UA-48114784-1"],["_trackPageview"]];
+    w.___gcfg = {lang: "ja"};
+    var s, e = d.getElementsByTagName("script")[0],
+        a = function (u, i) {
+            if (!d.getElementById(i)) {
+                s = d.createElement("script");
+                s.src = u;
+                if (i) {s.id = i;}
+                e.parentNode.insertBefore(s, e);
+            }
+        };
+    a(("https:" == location.protocol ? "//ssl" : "//www") + ".google-analytics.com/ga.js", "ga");
+    a("https://apis.google.com/js/plusone.js");
+    a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
+    a("//platform.twitter.com/widgets.js", "twitter-wjs");
+    a("//connect.facebook.net/ja_JP/all.js#xfbml=1", "facebook-jssdk");
+})(this, document);
+</script>
