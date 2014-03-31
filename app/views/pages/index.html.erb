@@ -1,21 +1,35 @@
-<div class="progress-bar"></div>
-<div id="wrapper">
-	<div class="jumbotron">
-        <h1>毎日の笑顔レシピ</h1>
-        <p>Recipaperは料理が苦手なあなたも「簡単に」「素早く」作れるものを紹介します。</p>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">ReciPaper</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><%= link_to "トップ", {:action => 'index'} %></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
-    <h1>■おすすめの簡単オムライスレシピまとめ</h1>
-	<div id="main" role="main">
-		<ul id="tiles">
-		<% @recipes.each do |recipe| %>
-		<li>
-			<%= link_to image_tag(recipe.image_ulr), recipe.ulr, :target=>["_blank"] %>
-			<p>
-				<%= recipe.title %><br />
-				[レシポイント] <%= recipe.num_tsukurepo %><br />
-			</p>
-		</li>
-		<% end %>
-		</ul>
-	</div>
+  </div>
 </div>
+<div class="hero-unit">
+  <h2>今日のごはんがここにある。</h2>
+</div>
+<div class="row-fluid">
+  <div class="span4">
+    <h2>簡単に発見</h2>
+    <p>COOKPADや楽天レシピのレシピを人気順に並べています。現在は、つくレポ数順に並べています。</p>
+  </div><!--/span-->
+  <div class="span4">
+    <h2>手間なく閲覧</h2>
+    <p>全てを１ページに集約することで、次へボタンを押すことなく、レシピを閲覧することができます。</p>
+  </div><!--/span-->
+  <div class="span4">
+    <h2>友達と交流</h2>
+    <p>Facebookと連携させる予定です。（構築中）</p>
+  </div><!--/span-->
+</div><!--/row-fluid-->
