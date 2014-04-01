@@ -3,3 +3,10 @@ $(function() {
         $(".content").fadeIn(1000);
     });
 });
+
+window.onload = function(){
+  $(function() {
+    $(".preload").fadeOut();
+    $(".content").fadeIn();
+  });
+}

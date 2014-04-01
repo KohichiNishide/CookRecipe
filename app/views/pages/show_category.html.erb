@@ -1,6 +1,13 @@
+<script type="text/javascript">
+window.onload = function(){
+  $(function() {
+    $(".preload").fadeOut();
+  });
+}
+</script>
+
 <div class="preload">
-  <%= image_tag("loader.gif", :alt=>"レシピ読み込み中") %><br />
-  <p>Now Loading…</p>
+  <p class="center"><%= image_tag("loader.gif", :alt=>"レシピ読み込み中") %><br /></p>
 </div>
 
 <div id="wrapper">
