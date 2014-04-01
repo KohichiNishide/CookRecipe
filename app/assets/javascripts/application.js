@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
+//= require load
 //= require pinterest/jquery.min
 //= require pinterest/jquery.imagesloaded
 //= require pinterest/jquery.wookmark

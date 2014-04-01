@@ -1,19 +1,19 @@
--
-  category_name: たけのこ
-  cookpad: 1270
-  rakuten: 12-100-10
--
-  category_name: アスパラガス
-  cookpad: 1272
-  rakuten: 12-100-11
--
-  category_name: グリーンピース
-  cookpad: 1274
-  rakuten: 12-100-844
--
-  category_name: そら豆
-  cookpad: 1278
-  rakuten: 12-100-23
+#-
+#  category_name: たけのこ
+#  cookpad: 1270
+#  rakuten: 12-100-10
+#-
+#  category_name: アスパラガス
+#  cookpad: 1272
+#  rakuten: 12-100-11
+#-
+#  category_name: グリーンピース
+#  cookpad: 1274
+#  rakuten: 12-100-844
+#-
+#  category_name: そら豆
+#  cookpad: 1278
+#  rakuten: 12-100-23
 -
   category_name: さやえんどう
   cookpad: 1276

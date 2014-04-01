@@ -35,6 +35,8 @@ class PagesController < ApplicationController
       @recipes = Recipe.find(:all,:conditions => { :kind => "そら豆" },:order => "num_tsukurepo DESC",:limit => 50)
     when '522' then #新たまねぎ
       @recipes = Recipe.find(:all,:conditions => { :kind => "新たまねぎ" },:order => "num_tsukurepo DESC",:limit => 50)
+    when '520' then #新じゃがいも
+      @recipes = Recipe.find(:all,:conditions => { :kind => "新じゃがいも" },:order => "num_tsukurepo DESC",:limit => 50)
     when '1271' then #アボカド
       @recipes = Recipe.find(:all,:conditions => { :kind => "アボカド" },:order => "num_tsukurepo DESC",:limit => 50)
     when '525' then #レタス

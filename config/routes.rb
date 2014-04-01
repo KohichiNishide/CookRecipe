@@ -3,7 +3,7 @@ App::Application.routes.draw do
   get "pages/index"
   get "pages/contact"
   #get "pages/show_category"
-  #get "pages/get_recipe"
+  get "pages/get_recipe"
   root :to => 'pages#index'
   get 'pages/category/:id' => 'pages#show_category'
   resources :pages
