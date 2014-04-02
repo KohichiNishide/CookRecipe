@@ -12,6 +12,8 @@
  *= require bootstrap_and_overrides
  *= require ../../../vendor/assets/bootstrap/css/bootstrap
  *= require ../../../vendor/assets/bootstrap/css/bootstrap.min
+ *= require ../../../vendor/assets/bootstrap/css/bootstrap-responsive
+ *= require ../../../vendor/assets/bootstrap/css/bootstrap-responsive.min
  *= require pinterest/reset
  *= require pinterest/main
  *= require social

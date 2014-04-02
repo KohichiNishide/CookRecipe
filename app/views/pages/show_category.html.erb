@@ -1,3 +1,7 @@
+<div class="preload">
+  <p class="center"><%= image_tag("loader.gif", :alt=>"レシピ読み込み中") %><br /></p>
+</div>
+
 <script type="text/javascript">
 window.onload = function(){
   $(function() {
@@ -5,10 +9,6 @@ window.onload = function(){
   });
 }
 </script>
-
-<div class="preload">
-  <p class="center"><%= image_tag("loader.gif", :alt=>"レシピ読み込み中") %><br /></p>
-</div>
 
 <div id="wrapper">
   <div id="main" role="main">
