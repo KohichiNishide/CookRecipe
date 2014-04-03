@@ -24,25 +24,25 @@ class PagesController < ApplicationController
     @id = params[:id]
     case @id
     when '1270' then #たけのこ
-      @recipes = Recipe.find(:all,:conditions => { :kind => "たけのこ" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "たけのこ").order("num_tsukurepo DESC").limit(50)
     when '1272' then #アスパラガス
-      @recipes = Recipe.find(:all,:conditions => { :kind => "アスパラガス" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "アスパラガス").order("num_tsukurepo DESC").limit(50)
     when '1274' then #グリーンピース
-      @recipes = Recipe.find(:all,:conditions => { :kind => "グリーンピース" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "グリーンピース").order("num_tsukurepo DESC").limit(50)
     when '1276' then #さやえんどう
-      @recipes = Recipe.find(:all,:conditions => { :kind => "さやえんどう" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "さやえんどう").order("num_tsukurepo DESC").limit(50)
     when '1278' then #そら豆
-      @recipes = Recipe.find(:all,:conditions => { :kind => "そら豆" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "そら豆").order("num_tsukurepo DESC").limit(50)
     when '522' then #新たまねぎ
-      @recipes = Recipe.find(:all,:conditions => { :kind => "新たまねぎ" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "新たまねぎ").order("num_tsukurepo DESC").limit(50)
     when '520' then #新じゃがいも
-      @recipes = Recipe.find(:all,:conditions => { :kind => "新じゃがいも" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "新じゃがいも").order("num_tsukurepo DESC").limit(50)
     when '1271' then #アボカド
-      @recipes = Recipe.find(:all,:conditions => { :kind => "アボカド" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "アボカド").order("num_tsukurepo DESC").limit(50)
     when '525' then #レタス
-      @recipes = Recipe.find(:all,:conditions => { :kind => "レタス" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "レタス").order("num_tsukurepo DESC").limit(50)
     when '1430' then #ふき
-      @recipes = Recipe.find(:all,:conditions => { :kind => "ふき" },:order => "num_tsukurepo DESC",:limit => 50)
+      @recipes = Recipe.where(:kind => "ふき").order("num_tsukurepo DESC").limit(50)
     else
     end
   end

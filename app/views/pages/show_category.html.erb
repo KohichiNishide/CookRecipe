@@ -5,6 +5,7 @@
 <script type="text/javascript">
 window.onload = function(){
   $(function() {
+    console.log( "onload!!" );
     $(".preload").fadeOut();
   });
 }
@@ -49,13 +50,6 @@ window.onload = function(){
     $('#tiles').imagesLoaded(function() {
       // Call the layout function.
       handler.wookmark(options);
-    }).progress(function(instance, image) {
-      // Update progress bar after each image load
-      loadedImages++;
-      if (loadedImages == handler.length)
-        $('.progress-bar').hide();
-      else
-        $('.progress-bar').width((loadedImages / handler.length * 100) + '%');
     });
   })(jQuery);
 </script>
