@@ -4,7 +4,6 @@
 
 class PagesController < ApplicationController
   def index
-    @recipes = Recipe.find(:all, :order => "num_tsukurepo DESC")
   end
 
   def get_recipe
